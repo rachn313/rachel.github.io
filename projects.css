@@ -1,0 +1,144 @@
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+}
+
+body {
+  text-align: center;
+  padding: 2em 0;
+  background: #222;
+}
+
+h8,
+h9
+{
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  color: deepskyblue;
+  font-size: 25px;
+  padding-top: 20px;
+}
+
+.tag {
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  color: #ffccf4;
+  font-size: 25px;
+  padding-top: 20px;
+}
+
+h8 {
+  font-size: 2.5rem;
+  color: #5cd9fd;
+  margin-bottom: 0.25em;
+  line-height: 1em;
+}
+
+h9 {
+  color: #ffccf4;
+  transition: 0.3s;
+  padding-top: 10px;
+}
+
+.tag {
+  font-size: 1.3rem;
+  color: deepskyblue;
+  font-weight: normal;
+  margin: 0 0 3em;
+}
+
+.projContainer {
+  padding-top: 10px;
+  display: inline-block;
+  vertical-align: top;
+  margin-right: -5px;
+  overflow: hidden;
+  position: relative;
+  vertical-align: top;
+  width: 800px;
+  height: 600px;
+  cursor: pointer;
+  overflow: scroll;
+}
+
+.projContainer img {
+transition: 0.3s;
+}
+
+.projContainer:hover img {
+ transform: scale(1.2);
+ -webkit-transform: scale(1.2);
+}
+
+.projContainer:hover h2 {
+    padding-top: 10%;
+}
+
+.projInfoContainer {
+  padding-top: 10px;
+  position: absolute;
+  background: rgba(5,5,5,0.8);
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 3;
+  opacity: 0;
+  transition: 0.2s;
+  text-align: left;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.projContainer:hover .projInfoContainer {
+  opacity: 1;
+}
+
+.projCat {
+  color:#ffccf4;
+  font-weight: bold;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.projYear {
+    color: deepskyblue;
+    font-weight: bold;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.projSpec {
+ color: white;
+ font-family: 'Quicksand', sans-serif;
+ font-size: 15px;
+}
+
+h10, h11 {
+    text-align: center;
+    padding-top: 25px;
+    color: #ffccf4;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-size: 45px;
+}
+
+cite {
+   text-align: left;
+}
+
+
